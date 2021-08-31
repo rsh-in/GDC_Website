@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { GiGoldBar } from 'react-icons/gi'      // THAT GOLD BAR ICON
 import {FaBars, FaTimes } from 'react-icons/fa'
 import { Button } from './Button'
 import './Navbar.css'
 import { IconContext } from 'react-icons/lib'
+import WebFont from 'webfontloader';
+
 
 function Navbar() {
     const [click,setClick] = useState(false)
@@ -23,6 +24,16 @@ function Navbar() {
     }
 
     useEffect(() => {
+        WebFont.load({
+          google: {
+            families: ['Crimson']
+          }
+        });
+       }, []);
+      
+
+      
+    useEffect(() => {
         showButton();
     },[]);
 
@@ -31,10 +42,11 @@ function Navbar() {
     return (
         <>
         <IconContext.Provider value={{ color: '#fff' }}>
-            <div className="navbar">
+            <div className="navbar" style={{fontFamily: 'Crimson'}} >
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                        <GiGoldBar className='navbar-icon'/>
+                        {/* <GiGoldBar className='navbar-icon'/> */}
+
                         GOLDEN DEER COIN
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -47,8 +59,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/services' className="nav-links" onClick={closeMobileMenu}>
-                                SERVICES
+                            <Link to='/aboutus' className="nav-links" onClick={closeMobileMenu}>
+                                ABOUT US
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -58,11 +70,11 @@ function Navbar() {
                         </li>
                         <li className="nav-btn">
                             {button ? (
-                                <Link to='/sign-up' className='btn-link' >
+                                <Link to='/SignUp' className='btn-link' >
                                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                 </Link>
                             ):(
-                                <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
+                                <Link to='/SignUp' className='btn-link' onClick={closeMobileMenu}>
                                     <Button buttonStyle='btn--outline' buttonSize='btn--mobile' >SIGN UP</Button>
                                 </Link>
                             )}

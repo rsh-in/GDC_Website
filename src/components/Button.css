@@ -1,5 +1,5 @@
 :root{
-    --primary: #fff;
+    --primary: #ffd051;
 }
 
 .btn {
@@ -13,7 +13,7 @@
 
 .btn--primary{
     background-color: var(--primary);
-    color: #242424; 
+    color: #000000; 
     border: 1px solid var(--primary);
 }
 
@@ -56,18 +56,18 @@
 .btn--large:hover, .btn--medium:hover, .btn--mobile:hover{
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #242424;
+    color: #111111;
 }
 
 .btn--wide:hover{
     color:#fff;
-    background-color: #f00946;
+    background-color: #000;
     transition: all 0.2s ease-out;
 }
 
 .blue {
-    background-color: #276afb;
-    color: #fff;
+    background-color: #ffc400;
+    color: #000;
     border:none;
 }
 
@@ -78,13 +78,13 @@
 }
 
 .primary {
-    background-color:  #242424;
+    background-color:  #111111;
     color: #fff;
     border:none;
 }
 .primary:hover{
     background-color: #fff;
-    color: #242424;
+    color: #111111;
     border:none;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .green:hover{
-    background-color: #242424;
+    background-color: #111111;
 }
 
 .btn-link{

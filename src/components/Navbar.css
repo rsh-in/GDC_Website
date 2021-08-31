@@ -1,5 +1,5 @@
 .navbar {
-    background: #1c2237;
+     background: #1c2237; 
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,6 +8,8 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: 3px solid #ffd051 ;
+
   }
   
   .navbar-container {
@@ -27,7 +29,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: #ffd051;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -55,11 +57,11 @@
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+    border-bottom: 3px solid #ffffff;
   }
   
   .nav-links {
-    color: #fff;
+    color: #ffd051;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -68,7 +70,7 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: #ffd051;
   }
   
   .menu-icon {
@@ -108,7 +110,7 @@
     }
   
     .nav-links:hover {
-      color: #f00946;
+      color: #ffd051;
       transform: scale(1.2);
       transition: all 0.3s ease;
     }
@@ -139,11 +141,12 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #ffd051;
       font-size: 2rem;
     }
   
     .nav-btn {
+      color: #ffd051;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -151,3 +154,8 @@
       height: 120px;
     }
   }
+
+  .font-loader {
+    font-family: 'Chilanka';
+  }
+  
