@@ -53,7 +53,7 @@
     font-size: 20px;
 }
 
-.btn--large:hover, .btn-medium:hover, .btn--mobile:hover{
+.btn--large:hover, .btn--medium:hover, .btn--mobile:hover{
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;
@@ -98,7 +98,7 @@
     background-color: #242424;
 }
 
-/* .btn-link{
+.btn-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,4 +106,4 @@
     padding: 8px 16px;
     height: 100%;
     width: 100%;
-} */
+}
