@@ -22,7 +22,7 @@ export const homeObjTwo = {
     'GDC Tokens are intended to be used at the GDC Wallet platform and for all transactions within the GDC Wallet and partnered ecosystems that can be developed and partnered within the future.',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: 'images/GDCWallet2.png',
+  img: 'images/newWalletImage.png',
   alt: 'Vault'
 };
 
@@ -49,9 +49,9 @@ export const homeObjFour = {
   lightText: true,
   lightTextDesc: true,
   // topLine: 'ROADMAP',
-  headline: '‎ ‎ ‎  ROADMAP',
+  headline: 'ROADMAP',
   description:
-    '',
+    'Our Strategy and Project Plan',
   buttonLabel: 'Sign Up Now',
   imgStart: 'start',
   img: 'images/GDCRoadmap1.png',
@@ -69,4 +69,31 @@ export const homeObjFive = {
     imgStart: '',
     img: 'images/ContactLogo1.png',
     alt: 'Vault'
+  };
+
+  export const homeObjSix = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false, 
+    topLine: '',
+    headline: 'ABOUT US',
+    description:"",
+    // buttonLabel: 'Start Now',
+    // imgStart: '',
+    // img: 'images/ContactLogo1.png',
+    // alt: 'Vault'
+  };
+
+
+  export const homeObjSeven = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false, 
+    // topLine: 'OUR TOKEN',
+    headline: 'GDC TOKEN',
+    description:"",
+    // buttonLabel: 'Start Now',
+    // imgStart: '',
+    // img: 'images/ContactLogo1.png',
+    // alt: 'Vault'
   };

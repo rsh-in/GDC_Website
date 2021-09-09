@@ -18,9 +18,8 @@ function HeroSection({
                         <div className="home__hero-text-wrapper">
                             <div className="top-line">{topLine}</div>
                             <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                            <h3>Email :  goldendeercapital@gmail.com </h3>‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
-                            <h3>Telegram : </h3> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
-                            <h3>Whatsapp :</h3>
+                            <h3>Email: goldendeeronline@gmail.com </h3>‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+                            
                         </div>
                     </div>
                     <div className='col'>

@@ -13,10 +13,10 @@ import { MdFingerprint } from 'react-icons/md';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container'> 
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
+          Subscribe to our newsletter to receive the latest updates and trends
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -38,7 +38,6 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
@@ -72,11 +71,10 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              GOLDEN DEER COIN
             </Link>
           </div>
-          <small className='website-rights'>LAVISH © 2020</small>
+          <small className='website-rights'>GOLDEN DEER CAPITAL © 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
@@ -97,7 +95,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                '/'
               }
               target='_blank'
               aria-label='Youtube'

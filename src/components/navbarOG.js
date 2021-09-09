@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { GiGoldBar } from 'react-icons/gi'      // THAT GOLD BAR ICON
 import {FaBars, FaTimes } from 'react-icons/fa'
 import { Button } from './Button'
 import './Navbar.css'
 import { IconContext } from 'react-icons/lib'
-import WebFont from 'webfontloader';
-import Pdf from './GDCWhitePaper.pdf';
-
-
 
 function Navbar() {
     const [click,setClick] = useState(false)
@@ -26,16 +23,6 @@ function Navbar() {
     }
 
     useEffect(() => {
-        WebFont.load({
-          google: {
-            families: ['Raleway']
-          }
-        });
-       }, []);
-      
-
-      
-    useEffect(() => {
         showButton();
     },[]);
 
@@ -44,12 +31,11 @@ function Navbar() {
     return (
         <>
         <IconContext.Provider value={{ color: '#fff' }}>
-            <div className="navbar" style={{fontFamily: 'Raleway'}} >
+            <div className="navbar">
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                        {/* <GiGoldBar className='navbar-icon'/> */}
-
-                        GOLDEN DEER
+                        <GiGoldBar className='navbar-icon'/>
+                        GOLDEN DEER COIN
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -61,8 +47,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/aboutus' className="nav-links" onClick={closeMobileMenu}>
-                                ABOUT US
+                            <Link to='/services' className="nav-links" onClick={closeMobileMenu}>
+                                SERVICES
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -70,20 +56,16 @@ function Navbar() {
                                 PRODUCTS
                             </Link>
                         </li>
-                        {/* <li className="nav-btn">
+                        <li className="nav-btn">
                             {button ? (
-                                <Link to='/SignUp' className='btn-link' >
-                                    <Button buttonStyle='btn--outline'>WHITE PAPER</Button>
+                                <Link to='/sign-up' className='btn-link' >
+                                    <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                 </Link>
                             ):(
-                                <Link to='/SignUp' className='btn-link' onClick={closeMobileMenu}>
-                                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile' >WHITE PAPER</Button>
+                                <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
+                                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile' >SIGN UP</Button>
                                 </Link>
-                            )} */}
-                            <li className='nav-btn'>
-                            <a href = {Pdf} target = "_blank">
-                            <Button buttonSize='btn--wide' buttonColor='blue'>WhitePaper</Button>
-                            </a>
+                            )}
 
                         </li>
                     </ul>

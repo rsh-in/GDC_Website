@@ -2,10 +2,11 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'A hybrid cryptocurrency, ',
-    headline: 'GOLDEN DEER COIN (GDC) is backed by 100% physical gold.    ',
+    topLine: 'MAKING GOLD DIGITAL',
+    headline: 'GET DOUBLE BENEFITS FOR YOUR INVESTMENT WITH THE GDC TOKEN',
+    // headline: 'GDC offers you the returns of Gold while enjoying the Liquidity of Crypto',
     description:
-      'Non-glittering digital gold is here to enable investors to partake in the centuries-old hedge that will never go out of fashion. ',
+      'Golden Deer Coin (GDC) offers you the returns of Gold while enjoying the Liquidity of Crypto',
     buttonLabel: 'WhitePaper',
     imgStart: '',
     img: 'images/gdcLogo.png',
@@ -19,10 +20,10 @@ export const homeObjOne = {
     topLine: 'GDC WALLET',
     headline: 'NOW BUY, SELL AND TRADE YOUR TOKENS USING THE GDC WALLET ',
     description:
-      'GDC Tokens are intended to be used at the GDC Wallet platform and for all transactions within the GDC Wallet and partnered ecosystems that can be developed and partnered within the future.',
+      'GDC Wallet is an IOS and Android Mobile Application that is exclusively developed for GDC Tokens. Tokens will be available to BUY, SELL and TRADE using other Exchanges and Wallets aswell in the near future.',
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'images/GDCWallet2.png',
+    img: 'images/newWalletImage.png',
     alt: 'Vault'
   };
   
@@ -49,9 +50,9 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     // topLine: 'ROADMAP',
-    headline: '‎ ‎ ‎  ROADMAP',
+    headline: 'ROADMAP',
     description:
-      '',
+      'Our Strategy and Project Plan',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
     img: 'images/GDCRoadmap1.png',
@@ -69,4 +70,44 @@ export const homeObjOne = {
       imgStart: '',
       img: 'images/ContactLogo1.png',
       alt: 'Vault'
+    };
+
+    export const homeObjSix = {
+      lightBg: true,
+      lightText: false,
+      lightTextDesc: false, 
+      topLine: '',
+      headline: 'ABOUT US',
+      description:"",
+      // buttonLabel: 'Start Now',
+      // imgStart: '',
+      // img: 'images/ContactLogo1.png',
+      // alt: 'Vault'
+    };
+
+
+    export const homeObjSeven = {
+      lightBg: true,
+      lightText: false,
+      lightTextDesc: false, 
+      // topLine: 'OUR TOKEN',
+      headline: 'WHAT IS GDC TOKEN?',
+      description:"",
+      // buttonLabel: 'Start Now',
+      // imgStart: '',
+      // img: 'images/ContactLogo1.png',
+      // alt: 'Vault'
+    };
+
+    export const homeObjEight = {
+      lightBg: true,
+      lightText: false,
+      lightTextDesc: false, 
+      // topLine: 'OUR TOKEN',
+      headline: 'Why Invest in us?',
+      description:"",
+      // buttonLabel: 'Start Now',
+      // imgStart: '',
+      // img: 'images/ContactLogo1.png',
+      // alt: 'Vault'
     };

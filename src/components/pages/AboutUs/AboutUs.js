@@ -1,13 +1,17 @@
 import React from 'react'
 import HeroSection from '../../HeroSection'
+import HeroSectionAbout from '../../HeroSectionAbout'
 import HeroSection1 from '../../HeroSection1'
+import { homeObjSix } from '../HomePage/Data'
+import { homeObjThree } from '../HomePage/Data'
 
-import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo} from './Data'
 
 function AboutUs() {
     return (
         <>    
-            <HeroSection1 {...homeObjThree} />      {/* THESE ARE THE FOUR SECTIONS OF THE HOME */}
+            <HeroSectionAbout {...homeObjSix} />
+            <HeroSection1 {...homeObjThree} />
+
 
         </>
     )

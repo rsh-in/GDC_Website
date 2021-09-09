@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './Button'
 // import { Link } from 'react-router-dom'
 import './HeroSection.css'
-import Pdf from './GDC.pdf';
+import Pdf from './GDCWhitePaper.pdf';
 
 function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel,
