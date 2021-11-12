@@ -1,3 +1,11 @@
+A landing page for a cryptocurrency token used to invest in Gold.
+
+Created using React, Hooks and Router
+
+https://goldendeercoins.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
